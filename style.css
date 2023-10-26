@@ -1,0 +1,45 @@
+h1{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+
+body
+{    
+    background-color: greenyellow;
+    color: whitesmoke;
+    display: grid;
+    place-items: center;
+}
+
+.contenedor{
+    display: grid;
+    justify-content: center;
+    align-items: baseline;
+    background-color: rgb(114, 119, 105);
+    width: 250px;
+    height: 300px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    grid-template-columns: repeat((4, 1fr));
+}
+
+input
+{
+    width: 250px;
+    height: 45px;
+    border-radius: 5px;
+}
+
+button
+{
+    width: 55px;
+    height: 40px;
+    justify-content: center;
+    margin: 3px;
+    padding: 10px;
+    border-radius: 10px;
+    }
+
